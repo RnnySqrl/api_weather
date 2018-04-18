@@ -1,0 +1,18 @@
+Questions:
+
+ - If I wanted the temperature in Kelvin rather than celcius, how could I specify this in API calls?
+Passing a parameter that gives you the opportunity to chose between Kelvin or celcius.
+ - How would you test this REST service?
+ Creating scripts which test every route of our API.
+ - How would you check the code coverage of your tests?
+ A: How many lines of code are in our project.
+ B: How many lines are executed.
+ B/A is the code coverage in every test
+ - How could the API be documented for third-parties to use?
+ Explaining all the routes in our API we have, with all the parameters the we must pass an all other parameters that we could pass but are not neecsary.
+ Also defining all the returned codes,404,500, etc... and what kinf of response in all cases we expect.
+ - How would you restrict access to this API?
+ creating a webtokens
+ - What would you suggest is needed to do daily forecast recoveries from openweather.org, keeping the web service up to date?
+ Running a python script every x hours, and uploading the data to a database if any value changes, change it in our database.
+a
